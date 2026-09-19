@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_activity_splash.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_activity_search.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/activity_search.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_activity_live_tv.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/activity_live_tv.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_activity_favorites.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/activity_favorites.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/drawable_logout_button_selector.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/drawable/logout_button_selector.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_item_live_channel.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/item_live_channel.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_activity_player.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/activity_player.xml"
+    },
+    {
+        "merged": "com.custom.xtreamplayer.app-merged_res-42:/layout_activity_series_list.xml.flat",
+        "source": "com.custom.xtreamplayer.app-main-44:/layout/activity_series_list.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_item_card.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/item_card.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_activity_dashboard.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/xml_backup_rules.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_activity_categories.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/activity_categories.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/drawable_dashboard_button_selector.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/drawable/dashboard_button_selector.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/drawable_card_selector.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/drawable/card_selector.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_activity_video_player.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/activity_video_player.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/drawable_bg_category_pill.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/drawable/bg_category_pill.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-merged_res-42:/layout_activity_main.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.custom.xtreamplayer.app-main-44:/layout/activity_main.xml"
+    }
+]

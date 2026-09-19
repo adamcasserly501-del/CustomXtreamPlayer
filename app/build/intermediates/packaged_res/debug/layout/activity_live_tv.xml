@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0F14"
+    android:orientation="horizontal">
+
+    <!-- =========================================================
+         CHANNEL LIST PANEL
+         ========================================================= -->
+
+    <LinearLayout
+        android:id="@+id/channelPanel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:background="#121820"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="LIVE TV"
+            android:textColor="#03A9F4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvLiveChannels"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingTop="4dp"
+            android:paddingBottom="8dp" />
+
+    </LinearLayout>
+
+    <!-- =========================================================
+         VIDEO PLAYER
+         ========================================================= -->
+
+    <FrameLayout
+        android:id="@+id/videoContainer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.6"
+        android:background="#000000">
+
+        <androidx.media3.ui.PlayerView
+            android:id="@+id/livePlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keepScreenOn="true"
+            app:use_controller="true" />
+
+        <!-- =====================================================
+             CURRENT CHANNEL INFORMATION OVERLAY
+
+             This disappears after selecting a channel.
+             ===================================================== -->
+
+        <LinearLayout
+            android:id="@+id/channelInfoOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#99000000"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="14dp">
+
+            <ImageView
+                android:id="@+id/ivCurrentChannelLogo"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Current channel logo"
+                android:scaleType="fitCenter" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvCurrentChannel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPlayerStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#B8C4CC"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnPreviousChannel"
+                android:layout_width="64dp"
+                android:layout_height="52dp"
+                android:layout_marginEnd="8dp"
+                android:focusable="true"
+                android:text="▲"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnNextChannel"
+                android:layout_width="64dp"
+                android:layout_height="52dp"
+                android:focusable="true"
+                android:text="▼"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
